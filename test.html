@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+.hero{
+    background-image: url('hero.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+display: flex;
+    padding: 100px 0;
+
+    .hero-content {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+
+
+.navbar-nav{
+display:flex;
+justify-content: flex-end;
+background-color:#A9A9A9;
+
+
+}
+
+.nav-item{
+padding:10px;
+display:flex;
+
+
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px 4px;
+}
+
+.column img {
+  margin-top: 8px;
+margin-right:100px;
+  vertical-align: middle;
+}
+
+.testimonial-slider {
+    background-color: $secondary-color;
+    color: white;
+    padding: 50px 0;
+
+    .carousel-item {
+        text-align: center;
+
+        .testimonial {
+            font-style: italic;
+        }
+
+        .author {
+            font-weight: bold;
+        }
+    }
+}
+
+footer{
+background-color:black;
+color:white;
+text-align:center;
+padding:2px;
+}
+
+footer:hover{
+
+color:green;
+}
+
+    </style>
+  
+</head>
+<body>
+ <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+    <!-- Hero Section -->
+    <header class="hero">
+ 
+        <nav class="navbar navbar-expand-lg navbar-light">
+        </nav>
+        <div class="hero-content">
+            <h1>Welcome to Our Photography</h1>
+            <p>Capture the moment, and cherish it forever.</p>
+        </div>
+    </header>
+
+    <!-- Grid Photo Gallery -->
+    <section class="photo-gallery">
+        <div class="container">
+            <h2 class="section-title">Photo Gallery</h2>
+            <div class="row">
+  <div class="column">
+    <img src="fd1.jpg">
+    <img src="f7.jpg">
+    <img src="f3.jpg">
+    <img src="f4.jpg">
+    <img src="f5.jpg">
+    <img src="f6.jpg">
+    <img src="f7.jpg">
+  </div>
+  <div class="column">
+    <img src="f8.jpg">
+    <img src="f9.jpg">
+    <img src="f10.jpg">
+    <img src="f6.jpg">
+    <img src="f3.jpg">
+    <img src="fd1.jpg">
+  </div>
+  <div class="column">
+    <img src="f7.jpg">
+    <img src="f9.jpg">
+    <img src="f10.jpg">
+    <img src="f3.jpg">
+    <img src="f4.jpg">
+    <img src="f7.jpg">
+    <img src="fd1.jpg">
+  </div>
+  <div class="column">
+    <img src="f6.jpg">
+    <img src="f3.jpg">
+    <img src="f4.jpg">
+    <img src="f5.jpg">
+    <img src="f6.jpg">
+    <img src="f7.jpg">
+  </div>
+</div>
+        </div>
+    </section>
+
+    <!-- Testimonial Slider -->
+    <section class="testimonial-slider">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="testimonial">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                        <span class="author">- John Doe</span>
+                    </div>
+                </div>
+                <!-- Repeat for more testimonials -->
+            </div>
+        
+        </div>
+    </section>
+
+<footer>Thank you for visit our site! Welcom again!!.</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
